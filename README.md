@@ -31,3 +31,19 @@ Within 24 months:
 The company will expand with purchases of other groups, these will initially remain separate, but during a 6-12 months period, their engineering groups will merge into the existing engineering group. However, they will not change location. Hence, the engineering group will be distributed; the same applies to their services.
 
 Propose a network design to match these requests. The design should include layer 2 and layer 3 devices and connectivity and the required layer N infrastructure to support this.
+
+
+The company wants to use domain names for their departments and sub-departments, so the company needs a separate DNS server to serve the IP addresses of their departments. The format for naming the domains is as follows: 
+
+The format must be followed:  
+For engineering department- eng.cloudrevel.com  
+
+For sub-department, staff – staff.eng.cloudrevel.com  
+For sub-department, production servers – prod.eng.cloudrevel.com  
+For sales department- sales.cloudrevel.com  
+
+For sub-department, staff – staff.sales.cloudrevel.com  
+For sub-department, technical writers – tech.sales.cloudrevel.com  
+For sub-department, customer support –cust.sales.cloudrevel.com  
+For management department – management.cloudrevel.com    
+
